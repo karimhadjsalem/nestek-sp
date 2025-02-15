@@ -37,3 +37,5 @@ fceux-net-server
 .deps
 .dirstamp
 /output
+
+.idea
