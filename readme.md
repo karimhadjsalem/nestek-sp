@@ -1,3 +1,7 @@
+# Forked from NESTEK
+
+Removed saved game and player 2 mappings from menu. Hide cursor in window.
+
 # NESTEK
 
 https://lowtekgames.itch.io/nestek
