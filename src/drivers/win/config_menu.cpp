@@ -20,8 +20,6 @@ static char const * config_option_str_array[config_option_count] = {
     "Toggle Smoothing",
     "Toggle Flicker Reduction",
     "Remap buttons (player 1)",
-    "Remap buttons (player 2)",
-    "Delete save game",
     "Exit game"
 };
 
@@ -183,23 +181,6 @@ void ConfigMenu::ConfirmOption()
             case ConfigOption::RemapButtonsP1:
             {
                 BeginRemap(0);
-                break;
-            }
-
-            case ConfigOption::RemapButtonsP2:
-            {
-                // This shows the old win32 config dialog from FCEUX.
-                // Keeping it here for reference.
-                //ConfigInput(GetMainHWND());
-
-                BeginRemap(1);
-                break;
-            }
-
-            case ConfigOption::DeleteSave:
-            {
-                FCEU_ClearSave();
-                ResetNES();
                 break;
             }
 

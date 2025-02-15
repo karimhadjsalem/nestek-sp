@@ -10,8 +10,6 @@ enum class ConfigOption : uint8_t
     ToggleSmoothing,
     ToggleFlickerReduction,
     RemapButtonsP1,
-    RemapButtonsP2,
-    DeleteSave,
     ExitGame,
     COUNT
 };
