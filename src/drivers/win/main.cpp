@@ -929,6 +929,7 @@ int main(int argc,char *argv[])
 	if (PauseAfterLoad) FCEUI_ToggleEmulationPause();
 	SetAutoFirePattern(AFon, AFoff);
 	UpdateCheckedMenuItems();
+	ShowCursorAbs(0);
 doloopy:
 	UpdateFCEUWindow();
 	if(GameInfo)
